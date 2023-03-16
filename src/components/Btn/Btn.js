@@ -1,16 +1,9 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 
-// export const Btn = (props) => {
-// 	const [amount, setAmount] = useState('0')
-
-//   const clickHandler = () => {
-// 	setAmount();
-//   };
-
-//   return (
-//     <>
-//       <button onClick={clickHandler}>{props.title}</button>
-//       <p>amount: {amount}</p>
-//     </>
-//   );
-// };
+export const Btn = (props) => {
+	return (
+	  <>
+		 <button onClick={props.onClick}>{props.title}</button>
+	  </>
+	);
+ };

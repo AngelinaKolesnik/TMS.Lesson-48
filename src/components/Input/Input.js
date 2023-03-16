@@ -1,7 +1,12 @@
-// import React from 'react'
+import React from 'react'
 
-// export const Input = (props) => {
-// 	return (
-// 		<input type={props.type} min={props.min} max={props.max}></input>
-// 	)
-// }
+export const Input = (props) => {
+	return (
+	  <input
+		 type={props.type}
+		 min={props.min}
+		 max={props.max}
+		 onChange={props.onChange}
+	  ></input>
+	);
+ };
